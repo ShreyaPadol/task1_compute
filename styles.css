@@ -4,7 +4,6 @@ ul {
     padding: 0;
 }
 
-/* Style for the navbar */
 .navbar {
     margin-top: 20px;
     display: flex;
@@ -12,14 +11,12 @@ ul {
     padding: 15px 30px;
 }
 
-/* Style for the logo image */
 .navbar-logo {
     height: 30px;
     margin-right: 20px;
     margin-left: 70px;
 }
 
-/* Style for the menu items */
 .navbar-menu {
     z-index: 5;
     margin-left: 140px;
@@ -31,14 +28,12 @@ ul {
     margin-bottom: 0px;
 }
 
-/* Style for individual menu links */
 .navbar-menu li a {
     color: #333;
     text-decoration: none;
     font-size: 16px;
 }
 
-/* Special style for the sign-up button */
 .signup-button {
     border: 1px solid #333;
     padding: 5px 15px;
@@ -51,12 +46,10 @@ ul {
     background-color: #f5f5f5;
 }
 
-/* Dropdown icon styling */
 .navbar-menu li a span {
     font-size: 12px;
 }
 
-/* arrangement of the decore img*/
 .decore {
     position: absolute;
     top: 0;
@@ -98,6 +91,16 @@ h1 {
     line-height: 1.2;
     margin-left: 40px;
     margin-top: 20px;
+    position: relative;
+}
+
+.hero-content img{
+    position: absolute;
+    top: 325px;
+    left:280px;
+    width: 280px;
+    z-index: -1;
+    
 }
 
 .description {
@@ -158,7 +161,6 @@ h1 {
 }
 
 
-/* Hero image styling */
 .hero-image img {
     position: relative;
     max-width: 100%;
@@ -213,17 +215,6 @@ body {
     position: relative;
     z-index: 2;
 }
-
-/* .service {
-    width: 150px;
-    height: 210px;
-    padding: 20px;
-    margin: 10px;
-    background-color: #ffffff;
-    border-radius: 18%;
-    text-align: center; */
-/* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-}*/
 
 .service img {
     width: 80px;
@@ -641,208 +632,8 @@ body {
 }
 
 
-.subscribe {
-    background-color: #f1f1f9;
-    /* Light purple background */
-    background-image: url('pattern.svg');
-    /* Placeholder for background pattern */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center right;
-    /* Positioning the pattern in the right-center */
-    padding: 50px 20px;
-    text-align: center;
-    border-radius: 20px;
-    margin: 40px 20px;
-}
-
-.subscribe h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #666;
-}
-
-.subscribe form {
-    display: inline-flex;
-    align-items: center;
-}
-
-.subscribe input[type="email"] {
-    padding: 15px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 10px 0 0 10px;
-    width: 300px;
-}
-
-.subscribe button {
-    padding: 15px 30px;
-    font-size: 16px;
-    color: white;
-    background-color: #ff6b6b;
-    border: none;
-    border-radius: 0 10px 10px 0;
-    cursor: pointer;
-}
-
-.subscribe button:hover {
-    background-color: #ff4b4b;
-}
-
-.footer {
-    background-color: white;
-    padding: 50px 20px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    text-align: left;
-    margin-left: 150px;
-}
-
-.footer-left {
-    max-width: 300px;
-}
-
-.footer-left h1 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-left: 0px;
-}
-
-.footer-left p {
-    font-size: 14px;
-    color: #666;
-}
-
-.footer-links {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.footer-column {
-    margin-right: 40px;
-}
-
-.footer-column h4 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.footer-column ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-column ul li {
-    margin-bottom: 10px;
-}
-
-.footer-column ul li a {
-    text-decoration: none;
-    color: #666;
-    font-size: 14px;
-}
-
-.footer-column ul li a:hover {
-    color: #ff6b6b;
-}
-
-.footer-social {
-    text-align: right;
-    max-width: 300px;
-}
-
-.footer-social .social-icons a {
-    margin-right: 15px;
-}
-
-.footer-social img {
-    width: 25px;
-    height: 25px;
-}
-
-.footer-app p {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.footer-app img {
-    width: 120px;
-    margin-right: 10px;
-}
-
-.footer-bottom {
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
-    color: #666;
-}
-
-.subscribe {
-    background-color: #f1f1f9;
-    /* Light purple background */
-    padding: 50px 20px;
-    text-align: center;
-    border-radius: 40px;
-    /* Rounded edges */
-    margin: 40px auto;
-    /* Centering the div horizontally */
-    max-width: 80%;
-    /* White space on the sides */
-    position: relative;
-    /* To position the background image if needed */
-}
-
-.subscribe h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #666;
-}
-
-.subscribe form {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.subscribe input[type="email"] {
-    padding: 15px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 10px 0 0 10px;
-    width: 300px;
-}
-
-.subscribe button {
-    padding: 15px 30px;
-    font-size: 16px;
-    color: white;
-    background-color: #ff6b6b;
-    border: none;
-    border-radius: 0 10px 10px 0;
-    cursor: pointer;
-}
-
-.subscribe button:hover {
-    background-color: #ff4b4b;
-} 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* Global Styles */
 body, ul {
     margin: 0;
     padding: 0;
@@ -1173,10 +964,10 @@ body {
 
 .design-circle {
     background-image: url('images/Mask\ Group.png');
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 240px;
     top: 10px;
-    right: -30px;
+    right: -70px;
     opacity: 2;
 }
 
@@ -1188,10 +979,6 @@ body {
     left: 20px;
     opacity: 0.3;
 }
-
-
-
-
 
 .design-plane {
     background-image: url('images/Group\ 77.png');
@@ -1240,6 +1027,16 @@ body {
     color: white;
 }
 
+.dots2 {
+    position: absolute;
+    bottom: -150px;
+    right: -100px;
+    transform: translateY(-50%);
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
+
 footer {
     padding: 50px 0;
     text-align: left;
@@ -1251,12 +1048,15 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-left: 180px;
+    margin-top: 80px;
 }
 
 .company-info h3 {
-    font-size: 24px;
+    font-size: 34px;
     color: #1c1c1c;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .company-info p {
@@ -1294,7 +1094,7 @@ footer {
     text-align: right;
 }
 
-.footer-apps p {
+/* .footer-apps p {
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -1302,6 +1102,10 @@ footer {
 .footer-apps a {
     display: inline-block;
     margin-right: 10px;
+} */
+
+.footer-apps img{
+    margin-right: 80px;
 }
 
 .footer-bottom {
